@@ -26,7 +26,7 @@ export class RecipeItemComponent implements OnInit {
   onSelect(){
     this.recipeSelected.emit();
     //this event emits when on Select event is fired
-
+    //but this event emits nothing...?
   }
 
 }

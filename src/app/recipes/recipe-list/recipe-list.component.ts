@@ -25,6 +25,7 @@ export class RecipeListComponent implements OnInit {
   onRecipeSelected(recipe: Recipe){
     this.recipeSelectedOnRecipeList.emit(recipe);
     //this event emits when onRecipeSelectedEvent gets fired during a click event
+    //this event emits a recipe object
   }
 
 }
