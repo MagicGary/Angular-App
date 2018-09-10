@@ -15,7 +15,7 @@ export class HeaderComponent {
         //this event emits a string called 'feature'
             //this string feature is passed into onSelected Event
             //and this featureSelected event emits out this string called feature
-        //this event is being used in the header.component.html 
+        //this event is being used in the header.component.html.
         this.featureSelected.emit(feature);
     }
 }
